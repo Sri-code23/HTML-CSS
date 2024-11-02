@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+h4{
+    
+    color: rgb(85, 85, 223);
+}
+
+#p1{
+    color: aquamarine; 
+    font-style: italic;
+}
+
+#p2{
+    font-style: italic;
+    color: beige;
+
+}
+#p3{
+    font-style:italic;
+    color:blueviolet
+}
+

@@ -1,0 +1,16 @@
+h1{  
+    font-family: roboto;
+    border-style:double;
+    border-width: 5px;  
+    border-color:rgb(79, 161, 15);
+
+}
+p{
+    font-family:sans-serif ;
+    border: 2px solid rgb(211, 177, 54);
+    border-right: 2px dotted blueviolet;
+    border-left: 2px dotted rgb(114, 8, 42);
+    border-top: 2px dotted rgb(114, 158, 52);
+    border-width: 5px;
+
+}

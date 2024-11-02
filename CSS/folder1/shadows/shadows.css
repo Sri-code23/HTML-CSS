@@ -1,0 +1,16 @@
+h1{
+    text-shadow: 5px 10px 5px rgb(71, 56, 85),
+     10px 20px 9px rgb(154, 214, 57);
+    color: rgb(35, 40, 38);
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sri{
+    height: 200px;
+    width:200px;
+    background-color: rgb(172, 122, 218);
+    box-shadow: 2px 4px 5px;
+    font-size: 60px;
+    text-shadow: 8px 6px 10px rgb(19, 14, 9);
+    font-family: sans-serif;
+}

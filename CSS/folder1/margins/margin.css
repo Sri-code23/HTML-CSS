@@ -1,0 +1,24 @@
+.box{
+    height: 200px;
+    width: 200px;
+
+}
+#box1{
+    border:5px solid;
+    font-size: 200px;
+    color: rgb(38, 54, 54);
+    background-color: rgb(72, 195, 195);
+    margin-top:0px;
+    margin-left:22px;
+}
+#box2{
+    border:5px solid;
+    font-size: 100px;
+    color: rgb(34, 38, 29);
+    background-color: rgb(110, 195, 140);
+    margin-bottom:300px;
+    
+    margin-left:222px;
+
+    
+}

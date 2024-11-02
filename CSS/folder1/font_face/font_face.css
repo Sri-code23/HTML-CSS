@@ -1,0 +1,24 @@
+/* @font-face is used to call the downloaded fonts fron fonts folder
+and then providing a desired name and then using it in the 
+required place by simply using this line 
+font-family: {deisred name} ;
+ */
+
+@font-face{
+    src:url(fonts/Poppins-Bold.ttf);
+    font-family: poppins-bold;
+}
+@font-face{
+    src:url(fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf);
+    font-family:opensans;
+}
+p{
+    font-family: poppins-bold;
+    color: rgb(160, 160, 236);
+
+
+}
+
+h1{
+    font-family:opensans ;
+}

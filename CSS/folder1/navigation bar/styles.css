@@ -1,0 +1,41 @@
+header{
+    margin-left:0px;
+    padding-left: 0%;
+    text-align: center;
+}
+body{
+    background-color: rgb(199, 220, 228);
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+main{
+    margin:0;
+    padding:0px;
+    
+}
+.navigation ul {
+    text-align: center;
+    background-color: rgb(70, 70, 71);
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    
+    overflow:hidden;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navigation li{
+    float:left;
+    
+}
+.navigation a:hover{
+    background-color: black;
+}

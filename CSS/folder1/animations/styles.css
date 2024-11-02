@@ -1,0 +1,16 @@
+#box{
+    border: 0px solid black;
+    height:500px;
+    width:500px;
+    font-size: 500px;
+    text-align: center;
+    background-color: aquamarine;
+    animation-name:slideleft_rotatefront ;
+    animation-duration: 3s;
+
+}
+@keyframes slideleft_rotatefront{
+    from{
+        transform:translateX(1000px) rotateZ(135deg);
+    }
+}

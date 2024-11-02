@@ -1,0 +1,9 @@
+body{
+    background-image: url(backgroung.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: azure;
+   font-family: sans-serif;
+   background-position: center;
+   background-attachment: fixed;
+}

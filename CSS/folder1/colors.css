@@ -1,0 +1,16 @@
+body{
+    /*using the rgb value to declare the color */
+    background-color:rgb(200, 55, 55) ;
+}
+#p1{
+    /*using the color name to declare the color */
+    color:blue
+}
+#p2{
+    /*using the hexa value to declare the color */
+    color:#8f0e0e
+}
+#p3{
+    /*using the HSL(hue.saturation.light) value to declare the color */
+    color:hsl(249, 43%, 56%)
+}

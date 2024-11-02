@@ -1,0 +1,37 @@
+/*.container{
+    display: flex; /* this line arranges the boxes in a row flex (default)= row*/
+     /*flex-direction: column; /* this line arranges the boxes in a column*/
+   /* flex-directions= row, -row, column, -column */
+   /*justify-content:center;*/
+    /* justify-content = center,flex-end, flex-start, space-between,left, right */
+
+
+.container{
+    display:flex;
+    border: 2px solid black;
+    align-items:center; /* center, baseline,end*/
+    height: 400px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+.box{
+    height:100px;
+    width:100px;
+    border-radius: 15px;
+    font-size: 75px;
+    text-align: center;
+
+
+}
+#box1{
+    background-color: rgb(227, 55, 16);
+}
+#box2{
+    background-color: rgb(20, 157, 57);
+}
+#box3{
+    background-color: rgb(40, 25, 176);
+}
+#box4{
+    background-color: rgb(143, 227, 16);
+}

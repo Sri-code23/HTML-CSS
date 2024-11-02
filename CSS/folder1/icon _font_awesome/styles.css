@@ -1,0 +1,15 @@
+.icons{
+   text-align: center;
+   padding:50px;
+   
+}
+
+.icons .fa-regular.fa-user.fa-3x{
+    color: rgb(214, 138, 16);
+}
+.icons .fa-solid.fa-phone.fa-3x{
+    color: rgb(48, 211, 46);
+}
+.icons .fa-brands.fa-tiktok.fa-3x{
+    color: rgb(108, 133, 161);
+}

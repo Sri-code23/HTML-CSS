@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            forms
+        </title>
+    </head>
+    <body>
+       
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <!-- username -->
+            <label for="user_name"> username :</label>
+            <input type="text" id="user_name"
+            placeholder="sridharan" minlength="8"
+             maxlength="15" required >
+
+            <br>
+            <br>
+            <!--password-->
+            <label for="pass"> password :</label>
+            <input type="password" id="pass"  
+            placeholder="jvhju4564"
+            minlength="8" maxlength="15" required>
+     
+            <br>
+            <br>
+            <!--email-->
+            
+            <label for="email"> mail id :</label>
+            <input type="email" id="email"  
+            placeholder="aavhju4564@gamil.com"
+            minlength="8" maxlength="15" required>
+            
+            <br>
+            <br>
+            <!--phone-->
+            <label for ="phone"> phone :</label>
+            <input type="phone" id="phone" 
+            placeholder="+9993731713" minlength="8"
+             maxlength="10" required >
+            
+            <br>
+            <br>
+
+            <!--birthdate-->
+            <label for="birthday">birthdate : </label>
+            <input type="date" id="birthday"
+            placeholder="00/00/0000" required >
+
+            <br>
+            <br>
+            
+            <!--choose, type=radio -->
+            <label for ="Male"> Male</label>
+            <input type="radio" id="Male"  value="Male" name="title">
+
+            <label for="female"> female </label>
+            <input type="radio" id="female" value="female" name="title">
+
+            <label for ="other"> other</label>
+            <input type="radio" id="other" value="other" name="title">
+            
+            <br>
+            <br>
+            <!--options-->
+            <label for="status"> status : </label>
+            <select id="status ">
+                <option value="employed"> employed </option>
+                <option value="married"> married </option>
+                <option value="un-married"> un-married </option>
+            </select>
+
+            <br>
+            <br>
+
+            <!--comment box-->
+            <label for="comment" > description : </label>
+            <br>
+            <br>
+            <textarea id="comment" row="4" cols="20" minlength="8" maxlength="700" placeholder="type something"></textarea>
+
+            <br>
+            <br>
+            
+           <!--checkbox-->
+            <input type="checkbox" id="tick">
+            <label for="tick"><small> I accept that i have read all the rules</small></label>
+            <br>
+            <br>
+            
+            <label for="file"> upload your resume : </label>
+            <input type="file" id="file"
+             accept="image/png , image/jpeg">
+            <br>
+            
+            <!--reset button-->
+            <input type="reset" >
+            <!--submit button-->
+            <input type="submit" >
+
+        </form>
+    </body>
+</html>

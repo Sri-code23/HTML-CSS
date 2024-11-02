@@ -1,0 +1,15 @@
+.block{
+    font-size: 100px;
+    text-align: center;
+    border: 2px solid black;
+    height: 125px;
+    width:125px;
+    background-color: aqua;
+    transform:translate(20px,30px) rotateZ(45deg) scaleX(2) skewX(45deg);
+    /*
+    translate - decides the position of the element
+    rotate -helps to rotate the element (x-dir, y- dir, z- dir ) in degrees
+    scale()- helps to compress or expand the element 
+    skew()- 3d rotate the element
+    */
+}
